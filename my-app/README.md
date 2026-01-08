@@ -162,3 +162,7 @@ reactCompiler: true,
 
 - allows us to use shared elements accross multiple routes
 - `example:` navbar, footer
+
+Topics:
+
+- route groups

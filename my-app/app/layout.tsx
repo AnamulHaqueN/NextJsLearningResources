@@ -22,12 +22,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("here");
   return (
     <html lang="en">
       <body>
-        <div className="mb-5">Navbar</div>
+        First Layout
         {children}
-        <div className="mt-15">Footer</div>
       </body>
     </html>
   );
