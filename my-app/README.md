@@ -148,3 +148,17 @@ reactCompiler: true,
 - Need because doing everything in a single page in boring
 - Next.js uses `file based` routing which means all the layout and pages are write within app folder
 - Component folder contains only components not pages. That is move outside the app folder.
+
+```ts
+-about - // routes name
+  page.tsx;
+```
+
+- Dynamic routes
+
+### Layout
+
+> Acts as a parents for all of the routes
+
+- allows us to use shared elements accross multiple routes
+- `example:` navbar, footer
